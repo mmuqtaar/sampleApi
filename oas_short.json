@@ -145,6 +145,34 @@
 				}
 			}
 
+		},
+		"/api/v1/primary-transaction/{id}": {
+			"get": {
+				"tags": ["APIsec__Manual__Endpoint"],
+				"summary": "Action Perform to get the data",
+				"operationId": "getlh2mz7ffn7",
+				"produces": ["*/*"],
+				"parameters": [{
+					"name": "id",
+					"in": "path",
+					"description": "Action Perform to get the data",
+					"required": true
+				}],
+				"responses": {
+					"200": {
+						"description": "OK"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				}
+			}
 		}
 	}
 }
