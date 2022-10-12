@@ -148,9 +148,9 @@
 		},
 		"/api/v1/primary-transaction/{id}": {
 			"get": {
-				"tags": ["APIsec__Manual__Endpoint"],
+				"tags": ["primary-controller"],
 				"summary": "Action Perform to get the data",
-				"operationId": "getlh2mz7ffn7",
+				"operationId": "primaryIdGet",
 				"produces": ["*/*"],
 				"parameters": [{
 					"name": "id",
